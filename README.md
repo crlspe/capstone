@@ -1,7 +1,7 @@
 # Capstone - Wiki 
 
 ## Installing Wordpress
-###
+### 1  Manual Install
 ### 2. Using Docker
     1. Download the docker-compose.yml file, and place it in a directory
     2. Run `docker-compose -d` in the same directory of the .yml file
