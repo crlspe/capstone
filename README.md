@@ -7,8 +7,8 @@
     2. Run `docker-compose -d`
     3. This will setup automatically the wordpress environment and run it.
     4. Access the Wordpress enviromment
-       |Service|Url|User|Password|Database|
-       |MySql Database||wordpress|wordpress|wordpress|
-       |phpmyadmin|https://localhost:8080|root|password||
-       |Wordpress|https://localhost:8000|wordpress|wordpress||
+|Service|Url|User|Password|Database|
+|MySql Database||wordpress|wordpress|wordpress|
+|phpmyadmin|https://localhost:8080|root|password||
+|Wordpress|https://localhost:8000|wordpress|wordpress||
       
