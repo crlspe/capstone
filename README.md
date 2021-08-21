@@ -9,8 +9,8 @@
     4. Access the Wordpress enviromment
 |Service|Url|User|Password|Database Name|
 |--------------|----------|-----|--------|-----|
-|MySql Database||wordpress|wordpress|wordpress|
-|||root|password||
+|MySql Database||root|password||
+|||wordpress|wordpress|wordpress|
 |phpmyadmin|https://localhost:8080||||
 |Wordpress|https://localhost:8000|wordpress|wordpress||
        
