@@ -10,6 +10,7 @@
 |Service|Url|User|Password|Database Name|
 |--------------|----------|-----|--------|-----|
 |MySql Database||wordpress|wordpress|wordpress|
-|phpmyadmin|https://localhost:8080|root|password||
+||root|password||
+|phpmyadmin|https://localhost:8080||||
 |Wordpress|https://localhost:8000|wordpress|wordpress||
       
