@@ -1,5 +1,8 @@
 # Capstone - Wiki 
 
+## Oreilly Tutorial Video Series about Wordpress
+   -  https://learning.oreilly.com/videos/wordpress-for-developers/9780134176635/ 
+
 ## Installing Wordpress
 ### 1. Manual Install
 ### 2. Using Docker
