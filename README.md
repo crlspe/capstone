@@ -1,7 +1,7 @@
 # Capstone - Wiki 
 
 ## Installing Wordpress
-### 1.  Manual Install
+### 1. Manual Install
 ### 2. Using Docker
     1. Install docker from https://docs.docker.com/engine/install/
     2. Download the docker-compose.yml file, and place it in a directory
@@ -17,4 +17,7 @@
 |Wordpress|https://localhost:8000|wordpress|wordpress||
 
 
+## Wordpress REST API 
+### 1. API Endpoind access
+### 2. API Authentication 
        
