@@ -23,4 +23,15 @@
 ## Wordpress REST API 
 ### 1. API Endpoind access
 ### 2. API Authentication 
-       
+--------------
+## WordPres Performace Test
+### Online Tools
+   1. Google PageSpeeds Insights https://developers.google.com/speed/pagespeed/insights/
+   2. GTMetrix https://gtmetrix.com/analyze.html
+   3. Pingdom https://tools.pingdom.com/?ref=hackernoon.com
+
+### WordPress Performace Analysis Pluggins
+   1. Query Monitor - John Blackburn
+
+
+
