@@ -1,7 +1,14 @@
 # Capstone - Wiki 
 
+------------------------------------------
+
+### WordPress Documentation and Tutorials 
+## Official Documentation
+   - https://codex.wordpress.org/
 ## Oreilly Tutorial Video Series about Wordpress
-   -  https://learning.oreilly.com/videos/wordpress-for-developers/9780134176635/ 
+   - https://learning.oreilly.com/videos/wordpress-for-developers/9780134176635/ 
+
+-----------------------------------
 
 ## Installing Wordpress
 ### 1. Manual Install
@@ -19,11 +26,13 @@
 |phpmyadmin|https://localhost:8080||||
 |Wordpress|https://localhost:8000|wordpress|wordpress||
 
+-------------------------------
 
 ## Wordpress REST API 
 ### 1. API Endpoind access
 ### 2. API Authentication 
---------------
+
+-------------------------------
 ## WordPres Performace Test
 ### Online Tools
    1. Google PageSpeeds Insights https://developers.google.com/speed/pagespeed/insights/
