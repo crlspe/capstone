@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-29T16:23:07.168Z" agent="5.0 (Windows)" etag="DNW-ivDgvyDRzh4qU6zz" version="15.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-29T16:26:26.481Z" agent="5.0 (Windows)" etag="NgbE5vc9eEpTbeEAKPKD" version="15.3.8" type="github">
   <diagram id="3-LBbgLK8UY7JytMnbPZ" name="Page-1">
     <mxGraphModel dx="1422" dy="1319" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -230,16 +230,16 @@
           <mxGeometry x="22.5" y="110" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="4350LJryet-j8qvg0Nxp-96" value="EVents" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;strokeColor=default;fillColor=#E6E6E6;align=left;verticalAlign=top;" vertex="1" parent="4350LJryet-j8qvg0Nxp-27">
-          <mxGeometry x="18.75" y="1060" width="817.5" height="220" as="geometry" />
+          <mxGeometry x="10" y="1060" width="830" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="4350LJryet-j8qvg0Nxp-97" value="&amp;nbsp;Success Stories" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;strokeColor=default;fillColor=#E6E6E6;align=left;verticalAlign=top;" vertex="1" parent="4350LJryet-j8qvg0Nxp-27">
+        <mxCell id="4350LJryet-j8qvg0Nxp-115" value="" style="group" vertex="1" connectable="0" parent="4350LJryet-j8qvg0Nxp-27">
           <mxGeometry x="2.5" y="1460" width="847.5" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="4350LJryet-j8qvg0Nxp-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="4350LJryet-j8qvg0Nxp-27" source="4350LJryet-j8qvg0Nxp-98" target="4350LJryet-j8qvg0Nxp-86">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="4350LJryet-j8qvg0Nxp-97" value="&amp;nbsp;Success Stories" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;strokeColor=default;fillColor=#E6E6E6;align=left;verticalAlign=top;" vertex="1" parent="4350LJryet-j8qvg0Nxp-115">
+          <mxGeometry width="847.5" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="4350LJryet-j8qvg0Nxp-98" value="" style="shape=rect;fillColor=#BDBDBD;strokeColor=none;fontColor=#000000;fontSize=12;fontStyle=0;verticalAlign=middle;spacingBottom=0;spacingLeft=0;shadow=1;" vertex="1" parent="4350LJryet-j8qvg0Nxp-27">
-          <mxGeometry x="90" y="1490" width="160" height="180" as="geometry" />
+        <mxCell id="4350LJryet-j8qvg0Nxp-98" value="" style="shape=rect;fillColor=#BDBDBD;strokeColor=none;fontColor=#000000;fontSize=12;fontStyle=0;verticalAlign=middle;spacingBottom=0;spacingLeft=0;shadow=1;" vertex="1" parent="4350LJryet-j8qvg0Nxp-115">
+          <mxGeometry x="122.5" y="19" width="160" height="180" as="geometry" />
         </mxCell>
         <mxCell id="4350LJryet-j8qvg0Nxp-99" value="Title goes here" style="shape=rect;fillColor=#000000;strokeColor=none;opacity=25;fontColor=#FFFFFF;fontSize=19;fontStyle=0;verticalAlign=top;spacingBottom=0;spacingLeft=16;spacingTop=17;align=left;resizeWidth=1;" vertex="1" parent="4350LJryet-j8qvg0Nxp-98">
           <mxGeometry y="1" width="160" height="100" relative="1" as="geometry">
@@ -261,8 +261,8 @@
             <mxPoint x="80" y="-40" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4350LJryet-j8qvg0Nxp-105" value="" style="shape=rect;fillColor=#BDBDBD;strokeColor=none;fontColor=#000000;fontSize=12;fontStyle=0;verticalAlign=middle;spacingBottom=0;spacingLeft=0;shadow=1;" vertex="1" parent="4350LJryet-j8qvg0Nxp-27">
-          <mxGeometry x="307.5" y="1490" width="160" height="180" as="geometry" />
+        <mxCell id="4350LJryet-j8qvg0Nxp-105" value="" style="shape=rect;fillColor=#BDBDBD;strokeColor=none;fontColor=#000000;fontSize=12;fontStyle=0;verticalAlign=middle;spacingBottom=0;spacingLeft=0;shadow=1;" vertex="1" parent="4350LJryet-j8qvg0Nxp-115">
+          <mxGeometry x="340" y="19" width="160" height="180" as="geometry" />
         </mxCell>
         <mxCell id="4350LJryet-j8qvg0Nxp-106" value="Title goes here" style="shape=rect;fillColor=#000000;strokeColor=none;opacity=25;fontColor=#FFFFFF;fontSize=19;fontStyle=0;verticalAlign=top;spacingBottom=0;spacingLeft=16;spacingTop=17;align=left;resizeWidth=1;" vertex="1" parent="4350LJryet-j8qvg0Nxp-105">
           <mxGeometry y="1" width="160" height="100" relative="1" as="geometry">
@@ -284,8 +284,8 @@
             <mxPoint x="80" y="-40" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4350LJryet-j8qvg0Nxp-110" value="" style="shape=rect;fillColor=#BDBDBD;strokeColor=none;fontColor=#000000;fontSize=12;fontStyle=0;verticalAlign=middle;spacingBottom=0;spacingLeft=0;shadow=1;" vertex="1" parent="4350LJryet-j8qvg0Nxp-27">
-          <mxGeometry x="530" y="1490" width="160" height="180" as="geometry" />
+        <mxCell id="4350LJryet-j8qvg0Nxp-110" value="" style="shape=rect;fillColor=#BDBDBD;strokeColor=none;fontColor=#000000;fontSize=12;fontStyle=0;verticalAlign=middle;spacingBottom=0;spacingLeft=0;shadow=1;" vertex="1" parent="4350LJryet-j8qvg0Nxp-115">
+          <mxGeometry x="562.5" y="19" width="160" height="180" as="geometry" />
         </mxCell>
         <mxCell id="4350LJryet-j8qvg0Nxp-111" value="Title goes here" style="shape=rect;fillColor=#000000;strokeColor=none;opacity=25;fontColor=#FFFFFF;fontSize=19;fontStyle=0;verticalAlign=top;spacingBottom=0;spacingLeft=16;spacingTop=17;align=left;resizeWidth=1;" vertex="1" parent="4350LJryet-j8qvg0Nxp-110">
           <mxGeometry y="1" width="160" height="100" relative="1" as="geometry">
