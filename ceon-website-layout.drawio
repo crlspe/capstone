@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-29T21:57:08.999Z" agent="5.0 (Windows)" etag="WVIhHhQTeP_9xU0y9rLC" version="15.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-29T21:59:20.094Z" agent="5.0 (Windows)" etag="n05gETxeEV8dEuoXZuWF" version="15.3.8" type="github">
   <diagram id="3-LBbgLK8UY7JytMnbPZ" name="Page-1">
     <mxGraphModel dx="1727" dy="1601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#172b4d" math="0" shadow="0">
       <root>
@@ -552,6 +552,102 @@
           <mxGeometry y="1" width="760" height="26" relative="1" as="geometry">
             <mxPoint y="-26" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="4350LJryet-j8qvg0Nxp-217" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="2.5" y="7510" width="850" height="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="4350LJryet-j8qvg0Nxp-218" value="Outreach" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="4350LJryet-j8qvg0Nxp-217">
+          <mxGeometry x="60" y="12" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4350LJryet-j8qvg0Nxp-219" value="https://ceonetweavers.org/" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="4350LJryet-j8qvg0Nxp-217">
+          <mxGeometry x="130" y="60" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4350LJryet-j8qvg0Nxp-220" value="" style="group" vertex="1" connectable="0" parent="4350LJryet-j8qvg0Nxp-217">
+          <mxGeometry y="110" width="850" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4350LJryet-j8qvg0Nxp-221" value="Header" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="4350LJryet-j8qvg0Nxp-220">
+          <mxGeometry width="850" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4350LJryet-j8qvg0Nxp-222" value="Logo" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;fillColor=#E6E6E6;" vertex="1" parent="4350LJryet-j8qvg0Nxp-220">
+          <mxGeometry x="15" y="30" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4350LJryet-j8qvg0Nxp-223" value="Menu" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;fillColor=#E6E6E6;" vertex="1" parent="4350LJryet-j8qvg0Nxp-220">
+          <mxGeometry x="260" y="30" width="480" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4350LJryet-j8qvg0Nxp-224" value="Members&#39; Area" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;fillColor=#E6E6E6;" vertex="1" parent="4350LJryet-j8qvg0Nxp-220">
+          <mxGeometry x="760" y="30" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4350LJryet-j8qvg0Nxp-225" value="Page" style="html=1;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;sketch=0;shape=mxgraph.sitemap.page;" vertex="1" parent="4350LJryet-j8qvg0Nxp-217">
+          <mxGeometry y="240" width="850" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="4350LJryet-j8qvg0Nxp-226" value="&lt;font color=&quot;#0085fc&quot;&gt;Home&lt;/font&gt; / &lt;font color=&quot;#0085fc&quot;&gt;Library&lt;/font&gt; / Data" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#E9ECEF;fontColor=#6C757D;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=14;spacing=10;" vertex="1" parent="4350LJryet-j8qvg0Nxp-217">
+          <mxGeometry x="10" y="250" width="800" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4350LJryet-j8qvg0Nxp-227" value="" style="group" vertex="1" connectable="0" parent="4350LJryet-j8qvg0Nxp-217">
+          <mxGeometry y="900" width="850" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="4350LJryet-j8qvg0Nxp-228" value="&lt;div&gt;Footer&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=1;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="4350LJryet-j8qvg0Nxp-227">
+          <mxGeometry width="850" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="4350LJryet-j8qvg0Nxp-229" value="Copyrights " style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=17;spacingLeft=4;spacingTop=-3;strokeColor=#666666;mainText=" vertex="1" parent="4350LJryet-j8qvg0Nxp-227">
+          <mxGeometry y="170" width="850" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4350LJryet-j8qvg0Nxp-230" value="Contact Information" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;fillColor=#E6E6E6;" vertex="1" parent="4350LJryet-j8qvg0Nxp-227">
+          <mxGeometry x="40" y="40" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4350LJryet-j8qvg0Nxp-231" value="Social Networks" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;fillColor=#E6E6E6;" vertex="1" parent="4350LJryet-j8qvg0Nxp-227">
+          <mxGeometry x="295" y="40" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4350LJryet-j8qvg0Nxp-232" value="Mail Address" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;fillColor=#E6E6E6;" vertex="1" parent="4350LJryet-j8qvg0Nxp-227">
+          <mxGeometry x="560" y="40" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4350LJryet-j8qvg0Nxp-233" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="5" y="8680" width="850" height="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="4350LJryet-j8qvg0Nxp-234" value="&lt;div&gt;Events/Membership&lt;/div&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="4350LJryet-j8qvg0Nxp-233">
+          <mxGeometry x="60" y="12" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4350LJryet-j8qvg0Nxp-235" value="https://ceonetweavers.org/" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="4350LJryet-j8qvg0Nxp-233">
+          <mxGeometry x="130" y="60" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4350LJryet-j8qvg0Nxp-236" value="" style="group" vertex="1" connectable="0" parent="4350LJryet-j8qvg0Nxp-233">
+          <mxGeometry y="110" width="850" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4350LJryet-j8qvg0Nxp-237" value="Header" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="4350LJryet-j8qvg0Nxp-236">
+          <mxGeometry width="850" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4350LJryet-j8qvg0Nxp-238" value="Logo" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;fillColor=#E6E6E6;" vertex="1" parent="4350LJryet-j8qvg0Nxp-236">
+          <mxGeometry x="15" y="30" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4350LJryet-j8qvg0Nxp-239" value="Menu" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;fillColor=#E6E6E6;" vertex="1" parent="4350LJryet-j8qvg0Nxp-236">
+          <mxGeometry x="260" y="30" width="480" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4350LJryet-j8qvg0Nxp-240" value="Members&#39; Area" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;fillColor=#E6E6E6;" vertex="1" parent="4350LJryet-j8qvg0Nxp-236">
+          <mxGeometry x="760" y="30" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4350LJryet-j8qvg0Nxp-241" value="Page" style="html=1;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;sketch=0;shape=mxgraph.sitemap.page;" vertex="1" parent="4350LJryet-j8qvg0Nxp-233">
+          <mxGeometry y="240" width="850" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="4350LJryet-j8qvg0Nxp-242" value="&lt;font color=&quot;#0085fc&quot;&gt;Home&lt;/font&gt; / &lt;font color=&quot;#0085fc&quot;&gt;Library&lt;/font&gt; / Data" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#E9ECEF;fontColor=#6C757D;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=14;spacing=10;" vertex="1" parent="4350LJryet-j8qvg0Nxp-233">
+          <mxGeometry x="10" y="250" width="800" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4350LJryet-j8qvg0Nxp-243" value="" style="group" vertex="1" connectable="0" parent="4350LJryet-j8qvg0Nxp-233">
+          <mxGeometry y="900" width="850" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="4350LJryet-j8qvg0Nxp-244" value="&lt;div&gt;Footer&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=1;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="4350LJryet-j8qvg0Nxp-243">
+          <mxGeometry width="850" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="4350LJryet-j8qvg0Nxp-245" value="Copyrights " style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=17;spacingLeft=4;spacingTop=-3;strokeColor=#666666;mainText=" vertex="1" parent="4350LJryet-j8qvg0Nxp-243">
+          <mxGeometry y="170" width="850" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4350LJryet-j8qvg0Nxp-246" value="Contact Information" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;fillColor=#E6E6E6;" vertex="1" parent="4350LJryet-j8qvg0Nxp-243">
+          <mxGeometry x="40" y="40" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4350LJryet-j8qvg0Nxp-247" value="Social Networks" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;fillColor=#E6E6E6;" vertex="1" parent="4350LJryet-j8qvg0Nxp-243">
+          <mxGeometry x="295" y="40" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4350LJryet-j8qvg0Nxp-248" value="Mail Address" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;fillColor=#E6E6E6;" vertex="1" parent="4350LJryet-j8qvg0Nxp-243">
+          <mxGeometry x="560" y="40" width="250" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
