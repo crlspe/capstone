@@ -23,8 +23,8 @@
 |-------|-------|-----|-----|-----|
 |MySql Database||root|password||
 |||wordpress|wordpress|wordpress|
-|phpmyadmin|https://localhost:8080||||
-|Wordpress|https://localhost:8000|wordpress|wordpress||
+|phpmyadmin|http://localhost:8080||||
+|Wordpress|http://localhost:8000|wordpress|wordpress||
 
 -------------------------------
 
