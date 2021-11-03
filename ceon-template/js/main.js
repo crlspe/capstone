@@ -1,3 +1,20 @@
+
+jQuery(document).ready(function () {
+    jQuery('.sidenav').sidenav({
+        draggable:true
+    });
+});
+
+
+jQuery(".dropdown-trigger").dropdown({
+    coverTrigger: false,
+    constrainWidth: false
+});
+
+jQuery(document).ready(function () {
+    jQuery('.collapsible').collapsible();
+});
+
 //////////////////SLIDERS/////////////////
 // HERO SLIDER
 
@@ -38,3 +55,17 @@ jQuery('#stories-slider').owlCarousel({
 jQuery(document).ready(function() {
     jQuery('.faq-landing-page').collapsible();
 });
+
+
+
+AOS.init({
+	offset: 120,
+	delay: 0,
+	duration: 1200,
+	easing: 'ease',
+	once: false,
+	mirror: false,
+	anchorPlacement: 'top-bottom',
+	disable: 'mobile'
+});
+

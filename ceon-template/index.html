@@ -8,36 +8,129 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="We are an engaged and diverse community of current and former CEO’s and select group of trusted advisors committed to freely sharing their relationships, knowledge and skills while cultivating trusted relationships.">
 
     <!-- Compiled and minified CSS -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="vendors/owl-carousel/css/owl.carousel.min.css">
     <link rel="stylesheet" href="vendors/owl-carousel/css/owl.theme.default.css">
+    <link rel="stylesheet" href="vendors/aos/css/aos.css">
     <link rel="stylesheet" href="css/materialize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-
+    
     <!-- HEADER -->
-    <header class="header fixed-header z-depth-1">
-        <div class="logo">
-            <img class="logo" src="images/logo/CNW_Horz_Logo_Color.png" alt="">
+    <nav class="fixed-header">
+        <div class="nav-wrapper white">
+            <a href="#!" class="brand-logo">
+                <img height="90" src="images/logo/CNW_Horz_Logo_Color.png" alt=""
+                    style="margin-left: 20px; margin-top: 5px;">
+            </a>
+            <a href="#" data-target="mobile-menu" class="sidenav-trigger black-text"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li>
+                    <a class="black-text menu-item" href="html/about.html">About Us |</a>
+                </li>
+                <!-- <li><a class="black-text" href="html/outreach.html">Outreach Programs</a></li> -->
+                <li>
+                    <a class="black-text dropdown-trigger menu-item" href="#!" data-target="engage-items">
+                        Engage
+                        <i style="margin: 0;" class="material-icons right">arrow_drop_down</i>
+                    </a>
+                </li>
+                <li>
+                    <a class="black-text menu-item" href="html/events.html"> Events |</a>
+                </li>
+                <li>
+                    <a class="black-text menu-item" href="html/success.html">Success Stories | </a>
+                </li>
+                <li>
+                    <a class="black-text menu-item" href="html/faq.html">FAQ | &nbsp;</a>
+                </li>
+                <li>
+                    <a class="menu-item menu-item-img" href="https://ceonfoundation.org/">
+                        <img src="images/logo/ceon-foundation-logo.jpg" alt="" width="100" height="40"
+                            style="margin-top: 30px;">
+                    </a>
+                </li>
+                <li>
+                    <a href="html/member-home.html" class="btn btn-small grey lighten-3 black-text flow-text"
+                        style="text-transform: capitalize;">Member Sign In
+                        <i style="margin: 0 0 0 3px;" class="material-icons right">login</i>
+                    </a>
+                </li>
+            </ul>
         </div>
-        <div class="header-items">
-            <div class="header-menu">
-                <a class="black-text" href="index.html">Home</a>
-                <a class="black-text" href="html/about.html">About</a>
-                <a class="black-text" href="html/outreach.html">Outreach Programs</a>
-                <a class="black-text" href="html/events.html">Events</a>
-                <a class="black-text" href="html/success.html">Success Stories</a>
-                <a class="black-text" href="html/faq.html">FAQ</a>
+    </nav>
+    
+    <ul class="sidenav" id="mobile-menu">
+        <li>
+            <div class="user-view center">
+                <div class="background">
+                </div>
+                <img width="60%" src="images/logo/CNW_Logo_Color_Vert.png">
+                <a href="html/member-home.html" class="btn btn-small grey lighten-3 black-text flow-text"
+                    style="text-transform: capitalize; padding: 5px 15px 5px 15px;">
+                    <i class="material-icons right">login</i>
+                    Member Sign In
+                </a>
             </div>
-            <div class="header-sign-in">
-                <a href="html/login.html" class="btn grey lighten-3 black-text flow-text">Sign In</a>
-            </div>
-        </div>
-    </header>
+        </li>
+    
+        <li class="divider"></li>
+        <li><a class="black-text" href="index.html">Home</a></li>
+        <li class="divider"></li>
+        <li><a class="black-text" href="html/about.html">About Us</a></li>
+        <!-- <li><a class="black-text" href="html/outreach.html">Outreach Programs</a></li> -->
+        <li class="divider"></li>
+        <li class="no-padding">
+            <ul class="collapsible collapsible-accordion">
+                <li class="active">
+                    <a class="collapsible-header">Engage<i class="material-icons">arrow_drop_down</i></a>
+                    <div class="collapsible-body">
+                        <ul>
+                            <li>
+                                <a style="font-size: .85rem;" class="black-text" href="html/k12.html">
+                                    K-12 Entrepreneurship and Education Program
+                                </a>
+                            </li>
+                            <li>
+                                <a style="font-size: .85rem;" class="black-text" href="html/mentoring.html">
+                                    Mentoring Programs
+                                </a>
+                            </li>
+                            <li>
+                                <a style="font-size: .85rem;" class="black-text" href="html/inflection.html">
+                                    Grow your Business
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <li class="divider"></li>
+        <li><a class="black-text" href="html/events.html">Events</a></li>
+        <li class="divider"></li>
+        <li><a class="black-text" href="html/success.html">Success Stories</a></li>
+        <li class="divider"></li>
+        <li><a class="black-text" href="html/faq.html">FAQ</a></li>
+        <li class="divider"></li>
+        <li>
+            <a class="center" style="padding: 0 2px;" href="https://ceonfoundation.org/">
+                <img src="images/logo/ceon-foundation-logo.jpg" alt="" width="120" height="50" style="margin-top: 5px;">
+            </a>
+        </li>
+    </ul>
+    
+    <ul id="engage-items" class="dropdown-content">
+        <li><a style="font-size: .85rem;" class="black-text" href="html/k12.html">K-12 Entrepreneurship and Education
+                Program</a></li>
+        <li><a style="font-size: .85rem;" class="black-text" href="html/mentoring.html">Mentoring Programs</a></li>
+        <li><a style="font-size: .85rem;" class="black-text" href="html/inflection.html">Grow Your Business</a></li>
+    </ul>
     <!--/ HEADER -->
 
     <div class="container">
@@ -45,7 +138,7 @@
         <!-- HERO IMAGES -->
         <section class="top-section border" id="hero">
             <div class="hero-slider carousel carousel-slider center">
-                <div class="carousel-item grey white-text" href="#one!" style="background-image: url(images/slider/hero.png);background-size: cover;background-repeat: no-repeat;">
+                <div class="carousel-item black white-text hero-image" href="#one!" style="background-image: url(images/slider/hero.png);">
                     <div class="hero-content">
                         <h1>CEO Netweavers</h1>
                         <h2 class="white-text hero-subtitle">
@@ -62,16 +155,15 @@
                         <p>&nbsp;</p>
                     </div>
                 </div>
-                <div class="carousel-item grey darken-4 white-text " href="#two!" style="background-image: url(images/slider/hero.png);background-size: cover;background-repeat: no-repeat;">
+                <div class="carousel-item grey darken-4 white-text hero-image" href="#two!" style="background-image: url(images/slider/hero.png);">
                     <div class="hero-content">
                         <h1>CEO Netweavers</h1>
                         <h2 class="white-text hero-subtitle">
-                            <span class="hero-subtitle-text light-blue-text">
-                                Diverse
+                            <span class="light-blue-text hero-subtitle-text">
+                                Transforming
                             </span>
-                            <span class=" hero-subtitle-text">
-                                community committed to freely sharing their relationships, knowledge and skills, while
-                                cultivating trusted relationships.
+                            <span class="hero-subtitle-text">
+                                business and enriching lives through <br> servant leadership
                             </span>
                         </h2>
                         <a href="" class="btn waves-effect light-blue white-text darken-text-2 bold-text-600 text-shadow-1-black">
@@ -128,7 +220,7 @@
                             <img src="images/personas/persona3.png ">
                         </div>
                         <div class="card-content " style="height: 180px; ">
-                            <span class="card-title ">Parnerships</span>
+                            <span class="card-title ">Partnerships</span>
                             <p>We enjoy partnerships with other organizations committed to the Servant Leadership model.
                             </p>
                         </div>
@@ -143,17 +235,15 @@
         <!--/ PERSONAS -->
 
         <!-- OUTREACH PROGRAMS -->
-        <section id="outreach-programs" class="grey lighten-4 border">
-
+        <section class="border grey lighten-4">
             <div class="center-align ">
-                <h4 class=" ">Outreach Programs</h4>
-                <h6 class="blue-grey-text text-darken-4 ">Investing in our Business Community</h6>
+                <h4>Outreach Programs</h4>
+                <h6 class="blue-grey-text text-darken-4" data-aos="fade-right">Investing in our Business Community</h6>
             </div>
+            <div class="outreach-grid">
 
-            <div class="outreach-grid ">
-
-                <div class="card-panel hoverable grey lighten-4 ">
-                    <span class="black-text ">
+                <div class="card-panel hoverable grey lighten-4" style="margin-bottom: 5px;" data-aos="fade-right">
+                    <span class="black-text">
                         <b>K-12 Entrepreneurship and Education Program</b>
                         <p>
                             CEO Netweavers participate in a speaker’s bureau as a resource to Metro Atlanta area K-12
@@ -163,37 +253,35 @@
                             provide feedback on student business plans.
                         </p>
                     </span>
-                    <div class="card-action center-align ">
-                        <a href="html/k12.html " class="btn grey lighten-2 black-text ">Learn More</a>
+                    <div class="card-action center-align">
+                        <a href="html/k12.html" class="btn grey lighten-2 black-text">Learn More</a>
                     </div>
                 </div>
 
-                <div class="card blue-grey lighten-4 image-panel ">
-                    <div class="card-image ">
-                        <img src="images/outreach/outreach-l_01.jpg " alt=" ">
+                <div class="card blue-grey lighten-4 image-panel hide-on-small-only" style="margin-bottom: 5px;" data-aos="zoom-in">
+                    <div class="card-image">
+                        <img src="images/outreach/outreach-l_01.jpg" alt="">
                     </div>
                 </div>
 
                 <div>
-                    <div class="col s12 ">
-                        <div class="card-panel hoverable white " style="height: 283px; ">
-                            <span class="black-text ">
+                    <div class="col s12">
+                        <div class="card-panel hoverable white" style="height: 290px; margin-bottom: 5px;" data-aos="fade-left">
+                            <span class="black-text">
                                 <b>Mentoring Programs</b>
                                 <p>
-                                    Co-developed program with Kennesaw State University and Georgia Tech University, CEO
-                                    Netweavers members volunteer as mentors to second year Executive MBA students.
+                                    Co-developed program with Kennesaw State University and Georgia Tech University, CEO Netweavers members volunteer as mentors to second year Executive MBA students.
                                 </p>
-                                <div class="center-align ">
-                                    <a href="html/mentoring.html " class="btn grey lighten-2 black-text "
-                                        style="margin-bottom: 40px; ">Learn More</a>
+                                <div class="center-align">
+                                    <a href="html/mentoring.html" class="btn grey lighten-2 black-text" style="margin-bottom: 40px;">Learn More</a>
                                 </div>
                             </span>
                         </div>
                     </div>
-                    <div class="col s12 ">
-                        <div class="card ">
-                            <div class="card-image ">
-                                <img src="images/outreach/outreach-l3.png " alt=" ">
+                    <div class="col s12">
+                        <div class="card" style="margin-bottom: 5px;" data-aos="zoom-in">
+                            <div class="card-image">
+                                <img src="images/outreach/outreach-l3.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -201,26 +289,25 @@
 
             </div>
 
-            <div class="row ">
-                <div class="col s12 m8 " style="padding-right:5px;padding-left:0px; ">
-                    <div class="card blue-grey lighten-4 image-panel ">
-                        <div class="card-image ">
-                            <img src="images/outreach/outreach-l2_01.jpg " alt=" ">
+            <div class="row" style="margin-bottom: 0px;">
+                <div class="col s12 m8" style="padding-right:5px;padding-left:0px;">
+                    <div class="card blue-grey lighten-4 image-panel" data-aos="zoom-in">
+                        <div class="card-image">
+                            <img src="images/outreach/outreach-l2_01.jpg" alt="">
                         </div>
                     </div>
                 </div>
 
-                <div class="col s12 m4 " style="padding-right:0px;padding-left:5px; ">
-                    <div class="card-panel hoverable grey lighten-4 " style="height: 304px; ">
-                        <span class="black-text ">
-                            <b>Inflection Point (IP)</b>
+                <div class="col s12 m4" style="padding-right:0px;padding-left:5px;">
+                    <div class="card-panel hoverable grey lighten-4" style="height: 304px;" data-aos="fade-left">
+                        <span class="black-text">
+                            <b>Grow your Business</b>
                             <p>
-                                Inflection Point panels offer a structured, interactive environment in which business
-                                leaders receive an open exchange of strategic advice on a variety of topics.
+                                Inflection Point panels offer a structured, interactive environment in which business leaders receive an open exchange of strategic advice on a variety of topics.
                             </p>
                         </span>
-                        <div class="card-action center-align ">
-                            <a href="html/inflection.html " class="btn grey lighten-2 black-text ">Learn More</a>
+                        <div class="card-action center-align">
+                            <a href="html/inflection.html" class="btn grey lighten-2 black-text">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -228,21 +315,22 @@
         </section>
         <!--/ OUTREACH PROGRAMS -->
 
+
         <!-- EVENTS -->
         <section id="upcoming-events" class="border">
             <div class="center-align ">
                 <h4 class=" ">Upcoming Events</h4>
-                <h6 class="blue-grey-text text-darken-4 ">Calendar</h6>
+                <h6 class="blue-grey-text text-darken-4" data-aos="fade-right">Calendar</h6>
             </div>
             <div class="row">
                 <div class="col s16 m8">
-                    <div class="card" style="margin: 3px;">
+                    <div class="card" style="margin: 3px;" data-aos="fade-right">
                         <div class="card-image">
                             <img src="images/content/landing-1.png" alt="" style="height: 400px; object-fit: cover;">
                         </div>
                     </div>
                 </div>
-                <div class="col s16 m4">
+                <div class="col s16 m4" data-aos="zoom-in">
                     <img src="images/content/landing-2.png" alt="" style="width:90% ;height: 400px; object-fit: contain;">
                 </div>
             </div>
@@ -254,14 +342,14 @@
         <section id="success-stories" class="border">
             <div class="center-align">
                 <h4 class="">Success Stories</h4>
-                <h6 class="blue-grey-text text-darken-4">
+                <h6 class="blue-grey-text text-darken-4" data-aos="fade-right">
                     Check out some of our amazing success stories.
                 </h6>
             </div>
 
             <div id="stories-slider" class="owl-carousel owl-theme grid-margin">
 
-                <div class="card hoverable col s12 m4">
+                <div class="card hoverable col s12 m4" data-aos="zoom-out">
                     <div class="card-image">
                         <img src="images/stories/story1.png">
                         <div class="card-title center-align white-text black lighten-4 " style="font-size: 1rem;font-weight: 700; padding: 5px; margin: 1px;">
@@ -277,7 +365,7 @@
                     </div>
                 </div>
 
-                <div class="card hoverable">
+                <div class="card hoverable" data-aos="zoom-out">
                     <div class="card-image">
                         <img src="images/stories/story2.png">
                         <div class="card-title center-align white-text black lighten-4 " style="font-size: 1rem;font-weight: 700; padding: 5px; margin: 1px; ">
@@ -293,7 +381,7 @@
                     </div>
                 </div>
 
-                <div class="card hoverable">
+                <div class="card hoverable" data-aos="zoom-out">
                     <div class="card-image">
                         <img src="images/stories/story3.png">
                         <div class="card-title center-align white-text black lighten-4 " style="font-size: 1rem;font-weight: 700; padding: 5px; margin: 1px; ">
@@ -309,7 +397,7 @@
                     </div>
                 </div>
 
-                <div class="card hoverable">
+                <div class="card hoverable" data-aos="zoom-out">
                     <div class="card-image">
                         <img src="images/stories/story4.png">
                         <div class="card-title center-align white-text black lighten-4 " style="font-size: 1rem;font-weight: 700; padding: 5px; margin: 1px; ">
@@ -325,7 +413,7 @@
                     </div>
                 </div>
 
-                <div class="card hoverable">
+                <div class="card hoverable" data-aos="zoom-out">
                     <div class="card-image">
                         <img src="images/stories/story5.png">
                         <div class="card-title center-align white-text black lighten-4 " style="font-size: 1rem;font-weight: 700; padding: 5px; margin: 1px; ">
@@ -341,7 +429,7 @@
                     </div>
                 </div>
 
-                <div class="card hoverable">
+                <div class="card hoverable" data-aos="zoom-out">
                     <div class="card-image">
                         <img src="images/stories/story6.png">
                         <div class="card-title center-align white-text black lighten-4 " style="font-size: 1rem;font-weight: 700; padding: 5px; margin: 1px; ">
@@ -353,11 +441,11 @@
                         <p>How I Discovered Patience While Growing my Business.</p>
                     </div>
                     <div class="card-action">
-                        <a class=" light-blue-text" href="#">Read More</a>
+                        <a class="light-blue-text" href="#">Read More</a>
                     </div>
                 </div>
 
-                <div class="card hoverable">
+                <div class="card hoverable" data-aos="zoom-out">
                     <div class="card-image">
                         <img src="images/stories/story7.png">
                         <div class="card-title center-align white-text black lighten-4 " style="font-size: 1rem;font-weight: 700; padding: 5px; margin: 1px; ">
@@ -373,7 +461,7 @@
                     </div>
                 </div>
 
-                <div class="card hoverable">
+                <div class="card hoverable" data-aos="zoom-out">
                     <div class="card-image">
                         <img src="images/stories/story8.png">
                         <div class="card-title center-align white-text black lighten-4 " style="font-size: 1rem;font-weight: 700; padding: 5px; margin: 1px;">
@@ -389,7 +477,7 @@
                     </div>
                 </div>
 
-                <div class="card hoverable">
+                <div class="card hoverable" data-aos="zoom-out">
                     <div class="card-image">
                         <img src="images/stories/story9.png">
                         <div class="card-title center-align white-text black lighten-4 " style="font-size: 1rem;font-weight: 700; padding: 5px; margin: 1px;">
@@ -414,42 +502,42 @@
         <section id="sponsors" class="border">
             <div class="center-align ">
                 <h4 class=" ">Sponsors</h4>
-                <h6 class="blue-grey-text text-darken-4 ">
+                <h6 class="blue-grey-text text-darken-4" data-aos="fade-right">
                     Support our Sponsors.
                 </h6>
             </div>
             <div class="row ">
-                <div class="col s12 m4 sponsor ">
+                <div class="col s12 m4 sponsor center" data-aos="zoom-in">
                     <a href="https://www.cricpa.com/ " target="_blank ">
                         <img src="images/sponsors/cri-logo.png " alt=" ">
                     </a>
                 </div>
-                <div class="col s12 m4 sponsor ">
+                <div class="col s12 m4 sponsor center" data-aos="zoom-in">
                     <a href="https://coles.kennesaw.edu/emba/index.php " target="_blank ">
                         <img src="images/sponsors/EMBA-Logo.png " alt=" ">
                     </a>
                 </div>
-                <div class="col s12 m4 sponsor ">
+                <div class="col s12 m4 sponsor center" data-aos="zoom-in">
                     <a href="https://www.epiuse.com/aws-services/ " target="_blank ">
                         <img src="images/sponsors/EPIUSE-logo.png " alt=" ">
                     </a>
                 </div>
-                <div class="col s12 m4 sponsor ">
+                <div class="col s12 m4 sponsor center" data-aos="zoom-in">
                     <a href="https://www.eyemailinc.com/ " target="_blank ">
                         <img src="images/sponsors/EyeMail-logo.png " alt=" ">
                     </a>
                 </div>
-                <div class="col s12 m4 sponsor ">
+                <div class="col s12 m4 sponsor center" data-aos="zoom-in">
                     <a href="https://leedavislawllc.com/ " target="_blank ">
                         <img src="images/sponsors/LeeDavisLaw-Logo.png " alt=" ">
                     </a>
                 </div>
-                <div class="col s12 m4 sponsor ">
+                <div class="col s12 m4 sponsor center" data-aos="zoom-in">
                     <a href="https://www.thevideomarketingauthority.com/ " target="_blank ">
                         <img src="images/sponsors/vLink-Logo.png " alt=" ">
                     </a>
                 </div>
-                <div class="col s12 m4 sponsor ">
+                <div class="col s12 m4 sponsor center" data-aos="zoom-in">
                     <a href="https://www.thecapitalgrille.com/home " target="_blank ">
                         <img src="images/sponsors/the-capital-logo.png " alt=" ">
                     </a>
@@ -463,7 +551,7 @@
         <section id="faq" class="grey lighten-4 border">
             <div class="center-align ">
                 <h4 class=" ">F.A.Q.</h4>
-                <h6 class="blue-grey-text text-darken-4 ">
+                <h6 class="blue-grey-text text-darken-4" data-aos="fade-right">
                     Frequently Asked Questions.
                 </h6>
             </div>
@@ -553,27 +641,36 @@
             </div>
         </section>
         <!--/ FAQ -->
+
+      
+
+        
+
     </div>
 
     <!-- FOOTER -->
     <footer class="page-footer white z-depth-1 ">
         <div class="container ">
             <div class="row ">
-                <div class="col s3 left-align">
+                <div class="col s12 m3 left-align">
                     <a href="https://ceonetweavers.org/">
                         <img class="footer-logo " src="images/logo/CNW_Logo_Color_Vert.png " alt=" ">
                     </a>
+                    <hr class="grey-text text-lighten-4 hide-on-med-and-up">
                 </div>
-                <div class="col s3 ">
+                <div class="col s12 m3">
                     <h6 class="black-text "><i class="tiny material-icons ">email</i> Email</h6>
-                    <p class="black-text ">pat@ceonetweavers.org</p>
+                    <p class="black-text center">pat@ceonetweavers.org</p>
+                    <p class="center"><a href="" class="btn btn-small grey lighten-2 black-text">Contact Us</a></p>
+                    <hr class="grey-text text-lighten-4 hide-on-med-and-up">
                 </div>
-                <div class="col s3 ">
+                <div class="col s12 m3">
                     <h6 class="black-text "><i class="tiny material-icons ">place</i> Addresses</h6>
-                    <p class="black-text ">Atlanta – 3535 Peachtree Road, Suite 520-231 Atlanta, GA 30326</p>
-                    <p class="black-text ">Houston – 5535 Memorial Drive, Ste F107, Houston, TX 77007</p>
+                    <p class="black-text">Atlanta – 3535 Peachtree Road, Suite 520-231 Atlanta, GA 30326</p>
+                    <p class="black-text">Houston – 5535 Memorial Drive, Ste F107, Houston, TX 77007</p>
+                    <hr class="grey-text text-lighten-4 hide-on-med-and-up">
                 </div>
-                <div class="col s3 center">
+                <div class="col s12 m3 center">
                     <div class="col s12">
                         <a href="https://www.linkedin.com/company/ceo-netweavers/">
                             <icon class="blue-text text-darken-3 li-footer__copy-logo lazy-loaded " aria-hidden="true ">
@@ -612,7 +709,7 @@
         </div>
         <div class="footer-copyright grey lighten-4 black-text border">
             <div class="container center-align ">
-                Copyright © 2021 <span class="light-blue-text bold-text-700 mdi-text-shadow">CEO Netweavers</span> all rights reserved.
+                Copyright © 2021 <span class="blue-text text-darken-3  bold-text-700 mdi-text-shadow">CEO Netweavers</span> all rights reserved.
                 <a class="grey-text text-lighten-4 right " href="#! ">More Links</a>
             </div>
         </div>
@@ -626,7 +723,91 @@
     <script src="vendors/jquery/jquery.min.js "></script>
     <script src="vendors/materialize/js/materialize.min.js "></script>
     <script src="vendors/owl-carousel/js/owl.carousel.min.js "></script>
+    <script src="vendors/aos/js/aos.js"></script>
     <script src="js/main.js "></script>
+
+    <script type="application/ld+json">
+        {
+            "@context": "http://www.schema.org",
+            "@type": "Organization",
+            "name": "CEO Netweavers",
+            "url": "https://ceon-demo.web.app/"
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [{
+                "@type": "Question",
+                "name": "What is the vision and mission of CEO Netweavers?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": " <p><b>Vision:</b></p>
+                    <p>
+                        CEO Netweavers desires to be the “go to” organization for current and former CEO’s to freely share their relationships, knowledge, skills with the metro Atlanta business community while cultivating trusted relationships.
+                    </p>
+
+                    <p><b>Mission:</b></p>
+                    <p>
+                        CEO Netweavers’ mission is to develop trusted relationship among its members and actively engage in the business community as servant leaders We do this through outreach programs that help the business community as well as programs that help each other as we grow and expand our businesses.
+                    </p>
+
+                    <p><b>Goals:</b></p>
+                    <p>
+                        Grow membership and diversity of membership (age, gender, ethnicity) Gain more visibility of CEON and what we offer to the Atlanta business community Increase member engagement and number of participants served in each outreach program Hold more events to build community among members. 
+                    </p>"
+                }
+            }, {
+                "@type": "Question",
+                "name": "How does CEO Netweavers fulfill its Vision/Mission?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": " <p>
+                        CEO Netweavers members actively engage in outreach programs that help the business community as well as programs that help each other. Currently these programs include:
+                    </p>
+                    <p>
+                        <br> - Featured speakers at our monthly meetings
+                        <br> - Member volunteer opportunities for our Inflection Point program
+                        <br> - Member volunteer mentoring opportunities in conjunction with EMBA students at Kennesaw State and Georgia Tech
+                        <br> - Executive Symposium to the business community
+                        <br> - Quarterly small group CEO lunch exchanges
+                        <br> - Quarterly CEO Roundtables
+                    </p>"
+                }
+            }, {
+                "@type": "Question",
+                "name": "What are our Values?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": " <p><b>Servant Leadership</b></p>
+                    <p>
+                        <br>- A philosophy and set of practices that enrich the lives of individuals, builds better organizations and ultimately creates a more just and caring world;
+                        <br>- The emphasis is on the needs of others first;
+                        <br>- Traits include empathy, listening stewardship, commitment to actively encouraging and serving others.
+                    </p>
+
+                    <p><b>Netweaving/Pay It Forward</b></p>
+                    <p>
+                        <br>- “Pay It Forward” is an approach that builds bridges of trust by listening and actively engaging in helping others with no expectation that doing so will result in a personal benefit. It is the proactive facilitation of sharing ideas, information, relationships and experiences to help others first;
+                        <br>- Netweaving is a “Pay It Forward” activity and represents a specific set of skills which focus on connecting people and supplying them with resources which they or others in their trusted network are willing to provide;
+                        <br>- Netweaving is a characteristic of a Servant Leader.
+                    </p>
+
+                    <p><b>Trusted Relationships</b></p>
+                    <p>
+                        Trusted Relationships are built on mutual respect and based upon the authentic and accountable connections of individuals, personal integrity, confidentiality, candor and self-respect. In a professional setting the individuals in these trusted relationships:
+                        <br>
+                        <br>- Are expected to open their lives more fully to others;
+                        <br>- Are willing to seek out each other’s company rather than to interact only because of practical convenience or necessity;
+                        <br>- Become motivated by a sense that the benefits one partner offers are offered without expectation of receiving something in return;
+                        <br>- Expect that the relationship itself generates a true sense of reward.
+
+                    </p>"
+                }
+            }]
+        }
+    </script>
 </body>
 
 </html>
