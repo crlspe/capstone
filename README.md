@@ -1,12 +1,7 @@
+# GITHUB Repository 
+https://github.com/crlspe/capstone
+
 # Capstone - Source code WIKI  
-
-------------------------------------------
-
-### WordPress Documentation and Tutorials 
-## Official Documentation
-   - https://codex.wordpress.org/
-
------------------------------------
 
 ## Installing The Wordpress Environment
 ### I. Option 1: Manual Install
