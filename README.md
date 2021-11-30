@@ -34,10 +34,15 @@
    1. Copy the "ceon-template" folder in the "wp-content/themes/" of the WordPress installation
    2. Login into the WordPress Admin Dashboard
    3. Select the option "Appearance" and then "Themes" in the left sidebar menu.
-   4. Activate the CEON Netweavers Theme 
-   5. "
-   6. 
-###
+   4. Activate the CEON Netweavers Theme.
+   5. To Restore the required WordPress Data restore the MySQL Database Dump of the repo folder "mysqldumps" 
+   6. Run "mysql -u root -p password < ksu_ceon_netweavers_mysqldump_11-29-21.sql" 
+   
+### II. Option 2: Restore the Latest Backup
+   1. Login into the WordPress Admin Dashboard
+   2. Install and Activate the plugin "All-in-One WP Migration" by ServMask 
+   3. Select "Import" under the All-in-One WP Migration menu option.
+   4. Import the file provided in the repo folder "full-backup"
 
 -------------------------------
 ## WordPres Performace Test
@@ -47,7 +52,7 @@
    3. Pingdom https://tools.pingdom.com/?ref=hackernoon.com
    4. KeyCDN Speed Test https://tools.keycdn.com/speed
 
-### WordPress Performace Analysis Pluggins
+### WordPress Performace Analysis Plugins
    1. Query Monitor - John Blackburn
 
 
