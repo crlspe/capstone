@@ -1,4 +1,4 @@
-# Capstone - Wiki 
+# Capstone - Source code WIKI  
 
 ------------------------------------------
 
@@ -42,16 +42,7 @@
    3. Select "Import" under the All-in-One WP Migration menu option.
    4. Import the file provided in the repo folder "full-backup"
 
--------------------------------
-## WordPres Performace Test
-### Online Tools
-   1. Google PageSpeeds Insights https://developers.google.com/speed/pagespeed/insights/
-   2. GTMetrix https://gtmetrix.com/analyze.html
-   3. Pingdom https://tools.pingdom.com/?ref=hackernoon.com
-   4. KeyCDN Speed Test https://tools.keycdn.com/speed
 
-### WordPress Performace Analysis Plugins
-   1. Query Monitor - John Blackburn
 
 
 
