@@ -5,8 +5,6 @@
 ### WordPress Documentation and Tutorials 
 ## Official Documentation
    - https://codex.wordpress.org/
-## Oreilly Tutorial Video Series about Wordpress
-   - https://learning.oreilly.com/videos/wordpress-for-developers/9780134176635/ 
 
 -----------------------------------
 
