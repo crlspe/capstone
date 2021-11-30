@@ -4,8 +4,10 @@
    Template Name: Member-calendar Page Template 
 */
         if(post_password_required() === true) {
-                get_header('login');
-                get_template_part('includes/login');
+                get_header('member');
+                $password_heading = "<div id='my_password_form'><h3>Enter the shared password</h3>";
+                $password_input = get_the_password_form();
+                echo $password_heading.$password_input."</div>";
                 get_footer('member');
         }
         else{

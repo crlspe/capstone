@@ -12,11 +12,11 @@
 <div class="card-panel white" style="margin: 2px;height: auto;">
 <span class="black-text">
 <h4>
-                        CEO Roundtable
+                        Insight Plus
                     </h4>
 <br/>
 <p>
-                        The purpose of the Roundtables is to provide opportunity for members of CEO Netweavers to further develop and extend their servant leadership by helping others through the roundtable process.
+                        The purpose of the Insight Plus is to provide opportunity for members of CEO Netweavers to further develop and extend their servant leadership by helping others through the roundtable process.
                     </p>
 </span>
 </div>

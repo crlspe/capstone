@@ -27,32 +27,30 @@ add_action('wp_footer','load_javascript');
 
 function customize_content($wp_customize) {
 
-   	$wp_customize->add_section('ceon-landing-page-section', array(
-        'title' => 'Content Landing Page'
+   	$wp_customize->add_section('ceon-theme-section', array(
+        'title' => 'CEO Netweavers Theme Setting'
+    ));
+    
+    $wp_customize->add_setting('contact-email', array(
+        'default' => 'pat@ceonetweavers.org'
+    ));
+
+    $wp_customize->add_setting('contact-houston-email', array(
+        'default' => 'houstonchapterinfo@ceonetweavers.org'
     ));
 
 
-    $wp_customize->add_setting('hero-title', array(
-        'default' => 'CEO NetWeavers'
-    ));
-
-    $wp_customize->add_control( new WP_Customize_Control($wp_customize,'hero-title-control', array(
-        'label' => 'Hero Title',
-        'section' => 'ceon-landing-page-section',
-        'settings' => 'hero-title'
+    $wp_customize->add_control( new WP_Customize_Control($wp_customize,'contact-email-control', array(
+        'label' => 'Contact Email (Footer)',
+        'section' => 'ceon-theme-section',
+        'settings' => 'contact-email'
     )));
 
-
-    $wp_customize->add_setting('personas-membership-image');
-
-    $wp_customize->add_control( new WP_Customize_Cropped_Image_Control($wp_customize,'personas-membership-image-control', array(
-        'label' => 'Hero Title',
-        'section' => 'ceon-landing-page-section',
-        'settings' => 'personas-membership-image',
-        'width' => 378,
-        'height' => 304
+    $wp_customize->add_control( new WP_Customize_Control($wp_customize,'contact-houston-email-control', array(
+        'label' => 'Contact Houston Email (Footer)',
+        'section' => 'ceon-theme-section',
+        'settings' => 'contact-houston-email'
     )));
-
 
 }
 

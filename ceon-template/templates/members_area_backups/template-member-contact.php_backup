@@ -3,14 +3,9 @@
 /*
    Template Name: Member-contact Page Template 
 */
-        if(post_password_required() === true) {
-            get_header('login');
-            get_template_part('includes/login');
-            get_footer('member');
-        }
-        else{
-                get_header('member');
-        ?>
+    get_header('member');
+?>
+
 <div class="container">
     <div class="top-section">
         <div class="row" style="margin: 0px; padding: 20px;">
@@ -68,10 +63,9 @@
         </div>
     </div>
 </div>
-<?php
-                get_footer('member');
-        }
-?>
+
+<?php get_footer('member'); ?>
+
 <!-- taxonomi -->
 <!-- <?php           
 $terms = get_the_terms( $post->ID, 'chapter' );

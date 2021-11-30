@@ -69,3 +69,47 @@ AOS.init({
 	disable: 'mobile'
 });
 
+
+
+jQuery.expr[":"].contains = jQuery.expr.createPseudo(function(arg) {
+    return function( elem ) {
+     return jQuery(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0;
+    };
+  });
+
+jQuery("#search-contact").on("keyup", function (){
+         
+        // Search text
+        var text = jQuery(this).val().toLowerCase();
+    
+        let term = [];
+        if (text) terms = text.split(' ');
+        // Hide all content class element
+        jQuery('.member-contact').hide();
+    
+        // Search 
+        jQuery('.member-contact').each(function(){         
+            
+            let current = this;
+            let result = true; 
+
+            if (text) {
+                terms.forEach( (term, index)=>{
+                    result &= (jQuery(this).text().toLowerCase().indexOf("" + term + "") != -1 );
+                });
+            }
+
+            if (result) {
+                jQuery(this).closest('.member-contact').slideDown();
+            }
+        });
+        
+
+});
+
+jQuery(".mec-toggle-title").css("font-size","1.2em");
+
+let btn = jQuery(".forminator-button"); 
+btn.addClass("btn grey lighten-4 black-text");
+btn.removeClass("forminator-button");
+btn.removeClass("forminator-button-submit");

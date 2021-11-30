@@ -180,20 +180,9 @@
 <section class="border" id="upcoming-events">
 <div class="center-align">
 <h4 class="">Upcoming Events</h4>
-<h6 class="blue-grey-text text-darken-4" data-aos="fade-right">Calendar</h6>
+<h6 class="blue-grey-text text-darken-4" data-aos="fade-right">Event List</h6>
 </div>
-<div class="row">
-<div class="col s16 m8">
-<div class="card" data-aos="fade-right" style="margin: 3px;">
-<div class="card-image">
-<img alt="" src="<?php bloginfo("template_directory"); ?>/images/content/landing-1.png" style="height: 400px; object-fit: cover;"/>
-</div>
-</div>
-</div>
-<div class="col s16 m4" data-aos="zoom-in">
-<img alt="" src="<?php bloginfo("template_directory"); ?>/images/content/landing-2.png" style="width:90% ;height: 400px; object-fit: contain;"/>
-</div>
-</div>
+
 </section>
 <!--/ EVENTS -->
 <!-- SUCCESS STORIES -->
