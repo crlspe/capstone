@@ -1,4 +1,4 @@
-### III To view our code 
+### To View Our Code 
 The bulk of the work done for this project was done on the custom template we built for CEON. You can find this template by downloading the zip file containing the code base (we will be turning in the zip file to d2l to make it convenient to view the codebase as well). Under the zip folder please navigate to /wp-content/themes/ceon-template/ to view the template files which makup the customizations to the ceon website. 
 
 # GITHUB Repository 
