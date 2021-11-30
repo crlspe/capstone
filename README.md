@@ -10,9 +10,11 @@
 
 -----------------------------------
 
-## Installing Wordpress
-### 1. Manual Install
-### 2. Using Docker
+## Installing The Wordpress Environment
+### I. Option 1: Manual Install
+    1. Follow the tutorial: 
+       https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-20-04
+### II. Using Docker
     1. Install docker from https://docs.docker.com/engine/install/
     2. Download the docker-compose.yml file, and place it in a directory
     3. Run in the terminal "docker-compose up" in the same directory of the .yml file
@@ -27,10 +29,15 @@
 |Wordpress|http://localhost:8000|wordpress|wordpress||
 
 -------------------------------
-
-## Wordpress REST API 
-### 1. API Endpoind access
-### 2. API Authentication 
+## Setting Up the CEON Template 
+### I. Option 1: Manual
+   1. Copy the "ceon-template" folder in the "wp-content/themes/" of the WordPress installation
+   2. Login into the WordPress Admin Dashboard
+   3. Select the option "Appearance" and then "Themes" in the left sidebar menu.
+   4. Activate the CEON Netweavers Theme 
+   5. "
+   6. 
+###
 
 -------------------------------
 ## WordPres Performace Test
