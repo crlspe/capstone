@@ -74,7 +74,7 @@
                 <h4 class="">Take the Journey</h4>
             </div>
             <div class="col s12 m6 l4">
-                <div class="card hoverable" style="height: auto">
+                <div class="card hoverable" style="height: auto;" data-aos="zoom-in">
                     <div class="card-image">
                         <img src="<?php bloginfo("template_directory"); ?>/images/personas/persona1.png"/>
                     </div>
@@ -87,13 +87,13 @@
                         </p>
                     </div>
                     <div class="card-action center-align">
-                        <a class="btn grey lighten-2 black-text" href=<?php echo get_permalink(
+                        <a class="btn grey lighten-2 black-text" href="<?php echo get_permalink(
                             get_page_by_path('membership')); ?> ">Learn More</a>
                     </div>
                 </div>
             </div>
             <div class="col s12 m6 l4" >
-                <div class="card hoverable" style="height: auto;">
+                <div class="card hoverable" style="height: auto;" data-aos="zoom-in">
                     <div class="card-image">
                         <img src="<?php bloginfo("template_directory"); ?>/images/personas/persona3.png"/>
                     </div>
@@ -106,26 +106,28 @@
                         </p>
                     </div>
                     <div class="card-action center-align">
-                        <a class="btn grey lighten-2 black-text" href=<?php echo get_permalink(
+                        <a class="btn grey lighten-2 black-text" href="<?php echo get_permalink(
                             get_page_by_path('partnership')); ?> ">Learn More</a>
                     </div>
                 </div>
             </div>
             <div class="col s12 m6 l4">
-                <div class="card hoverable" style="height: auto">
+                <div class="card hoverable" style="height: auto;" data-aos="zoom-in">
                     <div class="card-image">
                         <img src="<?php bloginfo("template_directory"); ?>/images/personas/persona2.png"/>
                     </div>
                     <div class="card-content" style="min-height:240px;">
-                        <span class="card-title">Grow your Business</span>
-                        <p>Inflection Point and Investment Couching Sessions, focused on
-                            <b>entrepreneurs</b> and <b>start-ups</b> who are in the beginning stages of raising outside
-                            fund .
+                        <span class="card-title">Our 4 Pillars</span>
+                        <p>
+                            • Inflection Point. <br>
+                            • Mentorship. <br>
+                            • K-12 Education. <br>
+                            • Diversity, Equality, and Inclusion. 
                         </p>
                     </div>
                     <div class="card-action center-align">
-                        <a class="btn grey lighten-2 black-text" href=<?php echo get_permalink(
-                            get_page_by_path('inflection')); ?> ">Learn More</a>
+                        <a class="btn grey lighten-2 black-text" href="<?php echo get_permalink(
+                            get_page_by_path('pillars')); ?> ">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -156,7 +158,7 @@
                     </p>
                 </span>
                 <div class="card-action center-align">
-                    <a class="btn grey lighten-2 black-text" href=<?php echo get_permalink( get_page_by_path('k12'));
+                    <a class="btn grey lighten-2 black-text" href="<?php echo get_permalink( get_page_by_path('k12'));
                         ?>">Learn More</a>
                 </div>
             </div>
@@ -174,7 +176,7 @@
                             Netweavers members volunteer as mentors to second year Executive MBA students.
                         </p>
                         <div class="center-align">
-                            <a class="btn grey lighten-2 black-text" href=<?php echo get_permalink(
+                            <a class="btn grey lighten-2 black-text" href="<?php echo get_permalink(
                                 get_page_by_path('mentoring')); ?>" style="margin-bottom: 40px;">Learn More</a>
                         </div>
                     </span>
@@ -193,14 +195,14 @@
             <div class="col s12 l4" style="padding-right:0px;padding-left:5px;">
                 <div class="card-panel hoverable grey lighten-4" data-aos="fade-left" style="height: 340px;">
                     <span class="black-text">
-                        <b>Grow your Business</b>
+                        <b>Inflection Point</b>
                         <p>
                             Inflection Point panels offer a structured, interactive environment in which business
                             leaders receive an open exchange of strategic advice on a variety of topics.
                         </p>
                     </span>
                     <div class="card-action center-align">
-                        <a class="btn grey lighten-2 black-text" href=<?php echo get_permalink(
+                        <a class="btn grey lighten-2 black-text" href="<?php echo get_permalink(
                             get_page_by_path('inflection')); ?>">Learn More</a>
                     </div>
                 </div>
@@ -218,7 +220,7 @@
                         </p>
                     </span>
                     <div class="card-action center-align">
-                        <a class="btn grey lighten-2 black-text" href=<?php echo get_permalink(
+                        <a class="btn grey lighten-2 black-text" href="<?php echo get_permalink(
                             get_page_by_path('roundtable')); ?>">Learn More</a>
                     </div>
                 </div>
@@ -234,7 +236,7 @@
                         </p>
                     </span>
                     <div class="card-action center-align">
-                        <a class="btn grey lighten-2 black-text" href=<?php echo get_permalink(
+                        <a class="btn grey lighten-2 black-text" href="<?php echo get_permalink(
                             get_page_by_path('lunch')); ?>">Learn More</a>
                     </div>
                 </div>
@@ -249,7 +251,7 @@
                         </p>
                     </span>
                     <div class="card-action center-align">
-                        <a class="btn grey lighten-2 black-text" href=<?php echo get_permalink(
+                        <a class="btn grey lighten-2 black-text" href="<?php echo get_permalink(
                             get_page_by_path('breakfast')); ?>">Learn More</a>
                     </div>
                 </div>

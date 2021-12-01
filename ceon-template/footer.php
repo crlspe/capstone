@@ -2,35 +2,48 @@
 <footer class="page-footer white z-depth-1">
     <div class="container">
         <div class="row">
-            <div class="col s12 m3 left-align">
+            <div class="col s12 l3 left-align">
                 <a href="https://ceonetweavers.org/">
                     <img alt=" " class="footer-logo" src="<?php bloginfo("template_directory");
                         ?>/images/logo/CNW_Logo_Color_Vert.png "/>
                 </a>
-                <hr class="grey-text text-lighten-4 hide-on-med-and-up" />
+                <hr class="grey-text text-lighten-4 hide-on-large-only" />
             </div>
-            <div class="col s12 m3">
+            <div class="col s12 l3">
                 <h6 class="black-text"><i class="tiny material-icons">email</i> Email</h6>
-                <p class="black-text">
+              
+                <p class="black-text hide-on-med-and-down">
                     <a class="blue-text text-darken-3" href="mailto:<?php echo get_theme_mod('contact-email'); ?>"><?php echo get_theme_mod('contact-email'); ?></a>
                 </p>
-                <p class="black-text">
-                    Houston: <br>
-                    <a class="blue-text text-darken-3" href="mailto:<?php echo get_theme_mod('contact-houston-email'); ?>"><?php echo get_theme_mod('contact-houston-email'); ?></a>
+                <p class="black-text hide-on-med-and-down">
+                    <a class="blue-text text-darken-3" href="mailto:<?php echo get_theme_mod('contact-houston-email'); ?>">Houston Chapter</a>
                 </p>
-                <p class=""><a class="btn btn-small grey lighten-2 black-text"
-                        href="<?php echo get_permalink( get_page_by_path('contact-us'))?>">Contact Us</a></p>
-                <hr class="grey-text text-lighten-4 hide-on-med-and-up" />
+                <p class="hide-on-med-and-down">
+                    <a class="btn btn-small grey lighten-2 black-text" href="<?php echo get_permalink( get_page_by_path('contact-us'))?>">Contact Us</a>
+                </p>
+              
+                <div class="black-text center hide-on-large-only">
+                    <a class="blue-text text-darken-3" href="mailto:<?php echo get_theme_mod('contact-email'); ?>"><?php echo get_theme_mod('contact-email'); ?></a>
+                </div>
+                <div class="black-text center hide-on-large-only">
+                    <a class="blue-text text-darken-3" href="mailto:<?php echo get_theme_mod('contact-houston-email'); ?>">Houston Chapter</a>
+                </div>
+                <p class="hide-on-large-only center">
+                    <a class="btn btn-small grey lighten-2 black-text" href="<?php echo get_permalink( get_page_by_path('contact-us'))?>">Contact Us</a>
+                </p>
+
+
+                <hr class="grey-text text-lighten-4 hide-on-large-only" />
             </div>
-            <div class="col s12 m3">
+            <div class="col s12 l3">
                 <h6 class="black-text"><i class="tiny material-icons">place</i> Addresses</h6>
                 <quote>
                     <p class="black-text">Atlanta – 3535 Peachtree Road, Suite 520-231 Atlanta, GA 30326</p>
                 </quote>
                 <p class="black-text">Houston – 5535 Memorial Drive, Ste F107, Houston, TX 77007</p>
-                <hr class="grey-text text-lighten-4 hide-on-med-and-up" />
+                <hr class="grey-text text-lighten-4 hide-on-large-only" />
             </div>
-            <div class="col s12 m3 center">
+            <div class="col s12 l3 center">
                 <div class="col s12">
                     <a href="https://www.linkedin.com/company/ceo-netweavers/">
                         <icon aria-hidden="true " class="blue-text text-darken-3 li-footer__copy-logo lazy-loaded">

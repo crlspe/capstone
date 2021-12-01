@@ -12,7 +12,7 @@
         <div class="card-panel white" style="margin: 1px;height: auto;">
             <span class="black-text">
                 <h4>
-                    Grow Your Business
+                    <?php the_title(); ?>
                 </h4>
                 <br />
                 <p>

@@ -19,7 +19,7 @@
 
 <body>
 
-    <!-- HEADER11 -->
+    <!-- Main Menu -->
     <nav class="fixed-header">
         <div class="nav-wrapper white">
             <a class="brand-logo" href="<?php echo home_url(); ?>">
@@ -73,6 +73,39 @@
             </ul>
         </div>
     </nav>
+    <!--/ Main Menu -->
+
+    <!-- dropdown -->
+    <ul class="dropdown-content" id="engage-items">
+        <li>
+            <a class="black-text" href="<?php echo get_permalink( get_page_by_path('inflection')); ?>" style="font-size: .85rem;">
+                Let Us Help You Grow Your Business
+            </a>
+        </li>
+        <li>
+            <a class="black-text" href="<?php echo get_permalink( get_page_by_path('mentoring')); ?>" style="font-size: .85rem;">
+                Mentoring Programs
+            </a>
+        </li>
+        <li>
+            <a class="black-text" href="<?php echo get_permalink( get_page_by_path('k12')); ?>" style="font-size: .85rem;">
+                K-12 Entrepreneurship and Education
+            </a>
+        </li>
+        <li>
+            <a class="black-text" href="#" style="font-size: .85rem;">
+                Diversity, Equality, and Inclusion
+            </a>
+        </li>
+        <li>
+            <a class="black-text" href="<?php echo get_permalink( get_page_by_path('blog')); ?>" style="font-size: .85rem;">
+                Publications - Blog
+            </a>
+        </li>
+    </ul>
+    <!-- dropdown -->
+
+    <!-- side menu -->
     <ul class="sidenav" id="mobile-menu">
         <li>
             <div class="user-view center">
@@ -98,7 +131,7 @@
                         <ul>
                             <li>
                                 <a class="black-text" href="<?php echo get_permalink( get_page_by_path('inflection')); ?>" style="font-size: .85rem;">
-                                    Grow your Business
+                                    Let Us Help You Grow Your Business
                                 </a>
                             </li>
                             <li>
@@ -109,6 +142,11 @@
                             <li>
                                 <a class="black-text" href="<?php echo get_permalink( get_page_by_path('k12')); ?>" style="font-size: .85rem;">
                                     K-12 Entrepreneurship and Education
+                                </a>
+                            </li>
+                            <li>
+                                <a class="black-text" href="#" style="font-size: .85rem;">
+                                    Diversity, Equality, and Inclusion
                                 </a>
                             </li>
                             <li>
@@ -135,28 +173,7 @@
             </a>
         </li>
     </ul>
+    <!--/ side menu -->
     
-    <!-- side menu -->
-    <ul class="dropdown-content" id="engage-items">
-        <li>
-            <a class="black-text" href="<?php echo get_permalink( get_page_by_path('inflection')); ?>" style="font-size: .85rem;">
-                Grow Your Business
-            </a>
-        </li>
-        <li>
-            <a class="black-text" href="<?php echo get_permalink( get_page_by_path('mentoring')); ?>" style="font-size: .85rem;">
-                Mentoring Programs
-            </a>
-        </li>
-        <li>
-            <a class="black-text" href="<?php echo get_permalink( get_page_by_path('k12')); ?>" style="font-size: .85rem;">
-                K-12 Entrepreneurship and Education
-            </a>
-        </li>
-        <li>
-            <a class="black-text" href="<?php echo get_permalink( get_page_by_path('blog')); ?>" style="font-size: .85rem;">
-                Publications - Blog
-            </a>
-        </li>
-    </ul>
-<!--/ HEADER -->
+
+
