@@ -23,6 +23,11 @@ jQuery('.hero-slider').carousel({
     indicators: true,
     duration: 0
 });
+
+jQuery('.scrollspy').scrollSpy({
+    throttle:2
+});
+
 setInterval(() => jQuery('.hero-slider').carousel('next'), 15000);
 
 

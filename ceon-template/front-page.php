@@ -10,60 +10,44 @@
     <!-- HERO IMAGES -->
     <section class="top-section border" id="hero">
         <div class="hero-slider carousel carousel-slider center">
-            <div class="carousel-item black white-text hero-image" href="#one!"
-                style="background-image: url(<?php bloginfo("template_directory"); ?>/images/slider/hero.png);">
-                <div class="hero-content">
-                    <h1>Partner with CEO Netweavers</h1>
-                    <h2 class="white-text hero-subtitle">
-                        <!-- <span class="light-blue-text hero-subtitle-text">
-                            Transforming
-                        </span> -->
-                        <span class="hero-subtitle-text">
-                        A unique opportunity to Netweave with a select <br> group of Atlanta and Houston CEOs
-                        </span>
-                    </h2>
-                    <a class="btn waves-effect light-blue white-text darken-text-2 bold-text-600 text-shadow-1-black"
-                        href="https://ksu-teama.ceonetweavers.org/wp-content/uploads/2021/11/CEON-Sponsorship-updated-10-21-2018.pdf">
-                        Learn More
-                    </a>
-                    <p> </p>
-                </div>
-            </div>
-            <div class="carousel-item grey darken-4 white-text hero-image" href="#two!"
-                style="background-image: url(<?php bloginfo("template_directory"); ?>/images/slider/hero.png);">
-                <div class="hero-content">
-                    <h1>Servant Leadership</h1>
-                    <h2 class="white-text hero-subtitle">
-                        <!-- <span class="light-blue-text hero-subtitle-text">
-                            Transforming
-                        </span> -->
-                        <span class="hero-subtitle-text">
-                            CEO Netweavers and Inflection Point <br> Companies featured on Business Radio X
-                        </span>
-                    </h2>
-                    <a class="btn waves-effect light-blue white-text darken-text-2 bold-text-600 text-shadow-1-black"
-                        href="https://businessradiox.com/podcast/atlantabusinessradio/ceo-netweavers/">
-                        Listen to the Broadcast
-                    </a>
-                    <p> </p>
-                </div>
-            </div>
-            <div class="carousel-item grey darken-4 white-text hero-image" href="#two!"
-                style="background-image: url(<?php bloginfo("template_directory"); ?>/images/slider/hero.png);">
-                <div class="hero-content">
-                    <h1>Houston Chapter</h1>
-                    <h2 class="white-text hero-subtitle">
-                        <span class="hero-subtitle-text">
-                        Are you a Houston CEO interested to <br> joining or learn more?
-                        </span>
-                    </h2>
-                    <a class="btn waves-effect light-blue white-text darken-text-2 bold-text-600 text-shadow-1-black"
-                        href="">
-                        Click here
-                    </a>
-                    <p> </p>
-                </div>
-            </div>
+        
+        <?php
+                $args = array(
+                    'post_type'      => 'hero-image',
+                    'posts_per_page' => 100,
+                    'orderby' => 'date',
+                    'order' => 'ASC',
+                );
+                $loop = new WP_Query($args);
+            
+                $style = True;
+                while ( $loop->have_posts() ) {
+                    $loop->the_post(); ?>
+
+                    <div class="carousel-item black white-text hero-image" href="#one!"
+                    style="background-image: url(<?php bloginfo("template_directory"); ?>/images/slider/hero.png);">
+                    <div class="hero-content">
+                        <h1><?php the_title(); ?></h1>
+                        <h2 class="white-text hero-subtitle">
+                            <!-- <span class="light-blue-text hero-subtitle-text">
+                                Transforming
+                            </span> -->
+                            <span class="hero-subtitle-text">
+                            <?php echo get_field ('text'); ?>
+                            </span>
+                        </h2>
+                        <a class="btn waves-effect light-blue white-text darken-text-2 bold-text-600 text-shadow-1-black"
+                            href="<?php echo get_field ('link'); ?>">
+                            Learn More
+                        </a>
+                        <p> </p>
+                    </div>
+
+
+            </div>    
+
+            <?php } ?>  
+
         </div>
     </section>
     <!--/ HERO IMAGES -->
@@ -126,8 +110,7 @@
                         </p>
                     </div>
                     <div class="card-action center-align">
-                        <a class="btn grey lighten-2 black-text" href="<?php echo get_permalink(
-                            get_page_by_path('pillars')); ?> ">Learn More</a>
+                        <a class="btn grey lighten-2 black-text" href="#outreach-programs">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -135,9 +118,77 @@
     </section>
     <!--/ PERSONAS -->
 
+    <!-- SUCCESS STORIES -->
+    <section class="border" id="success-stories">
+        <div class="center-align">
+            <h4 class="">Success Stories</h4>
+            <h6 class="blue-grey-text text-darken-4" data-aos="fade-right">
+                Check out some of our amazing success stories.
+            </h6>
+        </div>
+        <div class="owl-carousel owl-theme grid-margin" id="stories-slider">
+            
+        <?php
+            $args = array(
+                'post_type'      => 'success-stories',
+                'posts_per_page' => 100,
+                'orderby' => 'date',
+                'order' => 'ASC',
+            );
+            $loop = new WP_Query($args);
+        
+            $style = True;
+            while ( $loop->have_posts() ) {
+                $loop->the_post(); ?>
+
+
+            <div class="card hoverable" data-aos="zoom-out" style="min-height: 430px;">
+                <div class="card-image">
+                    <img src="<?php echo get_field('photo') ?>"/>
+                    <div class="card-title center-align white-text black lighten-4"
+                        style="font-size: 1rem;font-weight: 700; padding: 5px; margin: 1px;">
+                        <?php echo get_field('date');  ?>
+                    </div>
+                </div>
+                <div class="card-content" style="height: 160px;">
+                    <span class="card-title"><?php the_title(); ?></span>
+                    <p><?php echo get_field('phrase') ?></p>
+                </div>
+                <div class="card-action">
+                    <a class="light-blue-text" href="<?php the_permalink(); ?>">Read Me</a>
+                </div>
+            </div>
+
+            <?php } ?>
+        </div>
+    </section>
+    <!--/ SUCCESS STORIES -->
+
+    <!-- EVENTS -->
+    <section id="upcoming-events" class="border">
+        <div class="center-align ">
+            <h4 class=" ">Upcoming Events</h4>
+            <h6 class="blue-grey-text text-darken-4" data-aos="fade-right">Calendar</h6>
+        </div>
+        <div class="row">
+            <div class="col s16 m5">
+                <div class="card" style="margin: 3px;" data-aos="fade-right">
+                    <div class="card-image">
+                        <img src="<?php bloginfo("template_directory"); ?>/images/content/landing-1.png" alt="" style="height: 400px; object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+            <div class="col s16 m7" data-aos="zoom-in">
+                <div style="overflow-x: hidden; overflow-y: auto; height: 400px;">
+                    <?php echo do_shortcode('[MEC id="193"]');?>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/ EVENTS -->
 
     <!-- OUTREACH PROGRAMS -->
-    <section class="grey lighten-4 border" style="padding-bottom: 0;">
+    <section id="outreach-programs" class="section scrollspy grey lighten-4 border" style="padding-bottom: 0;">
         <div class="center-align">
             <h4>Outreach Programs</h4>
             <h6 class="blue-grey-text text-darken-4 aos-init aos-animate" data-aos="fade-right">Investing in our
@@ -260,76 +311,6 @@
     </section>
     <!--/ OUTREACH PROGRAMS -->
 
-
-    <!-- EVENTS -->
-    <section id="upcoming-events" class="border">
-        <div class="center-align ">
-            <h4 class=" ">Upcoming Events</h4>
-            <h6 class="blue-grey-text text-darken-4" data-aos="fade-right">Calendar</h6>
-        </div>
-        <div class="row">
-            <div class="col s16 m5">
-                <div class="card" style="margin: 3px;" data-aos="fade-right">
-                    <div class="card-image">
-                        <img src="<?php bloginfo("template_directory"); ?>/images/content/landing-1.png" alt="" style="height: 400px; object-fit: cover;">
-                    </div>
-                </div>
-            </div>
-            <div class="col s16 m7" data-aos="zoom-in">
-                <div style="overflow-x: hidden; overflow-y: auto; height: 400px;">
-                    <?php echo do_shortcode('[MEC id="193"]');?>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--/ EVENTS -->
-
-    <!-- SUCCESS STORIES -->
-    <section class="border" id="success-stories">
-        <div class="center-align">
-            <h4 class="">Success Stories</h4>
-            <h6 class="blue-grey-text text-darken-4" data-aos="fade-right">
-                Check out some of our amazing success stories.
-            </h6>
-        </div>
-        <div class="owl-carousel owl-theme grid-margin" id="stories-slider">
-            
-        <?php
-            $args = array(
-                'post_type'      => 'success-stories',
-                'posts_per_page' => 100,
-                'orderby' => 'date',
-                'order' => 'ASC',
-            );
-            $loop = new WP_Query($args);
-        
-            $style = True;
-            while ( $loop->have_posts() ) {
-                $loop->the_post(); ?>
-
-
-            <div class="card hoverable" data-aos="zoom-out" style="min-height: 430px;">
-                <div class="card-image">
-                    <img src="<?php echo get_field('photo') ?>"/>
-                    <div class="card-title center-align white-text black lighten-4"
-                        style="font-size: 1rem;font-weight: 700; padding: 5px; margin: 1px;">
-                        <?php echo get_field('date');  ?>
-                    </div>
-                </div>
-                <div class="card-content" style="height: 160px;">
-                    <span class="card-title"><?php the_title(); ?></span>
-                    <p><?php echo get_field('phrase') ?></p>
-                </div>
-                <div class="card-action">
-                    <a class="light-blue-text" href="<?php the_permalink(); ?>">Read Me</a>
-                </div>
-            </div>
-
-            <?php } ?>
-        </div>
-    </section>
-    <!--/ SUCCESS STORIES -->
-
     <!-- SPONSORS -->
     <section class="border" id="sponsors">
         <div class="center-align">
@@ -369,6 +350,7 @@
         </div>
     </section>
     <!-- / SPONSORS -->
+
     <!-- FAQ -->
     <section class="grey lighten-4 border" id="faq">
         <div class="center-align">

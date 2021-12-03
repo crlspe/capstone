@@ -15,9 +15,7 @@
                 <p class="black-text hide-on-med-and-down">
                     <a class="blue-text text-darken-3" href="mailto:<?php echo get_theme_mod('contact-email'); ?>"><?php echo get_theme_mod('contact-email'); ?></a>
                 </p>
-                <p class="black-text hide-on-med-and-down">
-                    <a class="blue-text text-darken-3" href="mailto:<?php echo get_theme_mod('contact-houston-email'); ?>">Houston Chapter</a>
-                </p>
+                
                 <p class="hide-on-med-and-down">
                     <a class="btn btn-small grey lighten-2 black-text" href="<?php echo get_permalink( get_page_by_path('contact-us'))?>">Contact Us</a>
                 </p>
@@ -25,9 +23,7 @@
                 <div class="black-text center hide-on-large-only">
                     <a class="blue-text text-darken-3" href="mailto:<?php echo get_theme_mod('contact-email'); ?>"><?php echo get_theme_mod('contact-email'); ?></a>
                 </div>
-                <div class="black-text center hide-on-large-only">
-                    <a class="blue-text text-darken-3" href="mailto:<?php echo get_theme_mod('contact-houston-email'); ?>">Houston Chapter</a>
-                </div>
+       
                 <p class="hide-on-large-only center">
                     <a class="btn btn-small grey lighten-2 black-text" href="<?php echo get_permalink( get_page_by_path('contact-us'))?>">Contact Us</a>
                 </p>
