@@ -17,5 +17,4 @@
 - Terry Boyett
 - Alexander Reese
 
-## Source code
-[GitHub Repo](https://github.com/crlspe/capstone)
+## [GitHub Repo](https://github.com/crlspe/capstone)
