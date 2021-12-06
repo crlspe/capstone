@@ -5,6 +5,9 @@
 
 ## Demo Presentation 
 
+## User Manual
+[Document](https://github.com/crlspe/capstone/blob/main/docs/user_guide.pdf)
+
 ## Intended Audience
 - CEO Netweavers' Members 
 - Visitors of the Website
@@ -19,4 +22,5 @@
 - Terry Boyett
 - Alexander Reese
 
-## [GitHub Repo](https://github.com/crlspe/capstone)
+## GitHub
+[Repository](https://github.com/crlspe/capstone)
