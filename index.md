@@ -13,14 +13,13 @@
 
 Below you will find our demo video, where you can see the site's redesign. We implemented all the design features our client requested and we believe we stayed true to their new vision. The organzation had evolved throughout the years and we feel this new design reflects their growth. 
 
-<iframe width="560" height="315" src="https://youtu.be/SsOezt0UPD0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SsOezt0UPD0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Backend Tutorial and Presentation 
 
 In the next video you will find instructions on how to use the Wordpress Administrative section to manage the website. 
 
-<iframe width="560" height="315" src="https://youtu.be/UOcGhgEBD0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UOcGhgEBD0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## User Manual
 
