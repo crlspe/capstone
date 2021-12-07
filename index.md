@@ -37,9 +37,10 @@ Below you will find the user manual. This is an extesive document that explains 
   - Entrepreneurs and Companies 
 
 ## Team Members 
-- David Santos
-- Cesar Lopez 
-- Terry Boyett
-- Alexander Reese
+- David Santos.  dsantos5@students.kennesaw.edu
+- Cesar Lopez.   clopezsa@students.kennesaw.edu 
+- Terry Boyett.  tboyett1@students.kennesaw.edu
+- Alexander Reese. areese19@students.kennesaw.edu
 
-<div>test</div>
+ 
+
