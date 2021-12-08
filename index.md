@@ -25,7 +25,7 @@ In the next video you will find instructions on how to use the Wordpress Adminis
 
 Below you will find the user manual. This is an extesive document that explains all the intricacies of our project and how to use the website. The client should find this document very uselful for managing and understanding all elements of the project. 
 
-[Document](https://github.com/crlspe/capstone/blob/main/docs/user_guide.pdf)
+[Document](https://github.com/crlspe/capstone/blob/master/docs/user_guide.pdf)
 
 ## Intended Audience
 - CEO Netweavers' Members 
