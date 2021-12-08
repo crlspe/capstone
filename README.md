@@ -3,11 +3,11 @@
 - By downloading the zip file of this repository you will have access to containing the code base of this theme.
 - In the WordPress intallation please navigate to /wp-content/themes/ and place the theme folder in it. 
 
-# Project Website URL (GitHub Pages)
+## Project Website URL (GitHub Pages)
 https://github.com/crlspe/capstone
 
 
-# Capstone - Source-code WIKI  
+## Capstone - Source-code WIKI  
 
 ## Installing Wordpress Environment Locally
 ### I. Option 1: [Manual Installation](https://github.com/crlspe/capstone/blob/master/docs/installation/manual.md)
