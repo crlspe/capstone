@@ -7,8 +7,6 @@
 https://github.com/crlspe/capstone
 
 
-## Capstone - Source-code WIKI  
-
 ## Installing Wordpress Environment Locally
 ### I. Option 1: [Manual Installation](https://github.com/crlspe/capstone/blob/master/docs/installation/manual.md)
 
