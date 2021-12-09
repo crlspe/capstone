@@ -4,7 +4,7 @@
 - In the WordPress intallation please navigate to /wp-content/themes/ and place the theme folder in it. 
 
 ## Project Website URL (GitHub Pages)
-https://github.com/crlspe/capstone
+https://crlspe.github.io/capstone/
 
 
 ## Installing Wordpress Environment Locally
